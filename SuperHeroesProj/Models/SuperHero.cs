@@ -12,6 +12,7 @@ namespace SuperHeroesProj.Models
         [Key]
         public int Id { get; set; }
 
+        [Display (Name = "Super Hero Name")]
         public string Name { get; set; }
         public string AlterEgo { get; set; }
         public string PrimaryAbility { get; set; }

@@ -67,6 +67,8 @@ namespace SuperHeroesProj.Controllers
         {
             try
             {
+               // _db.superHeroes.(superHero);
+                _db.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             catch
